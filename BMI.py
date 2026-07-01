@@ -10,7 +10,7 @@ def calculate_bmi():
         bmi = weight / (height ** 2)
 
         if bmi < 18.5:
-            status = "น้ำหนักน้อย"
+            status = "น้อย"
         elif bmi < 25:
             status = "น้ำหนักปกติ"
         elif bmi < 30:
